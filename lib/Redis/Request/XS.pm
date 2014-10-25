@@ -5,7 +5,10 @@ use warnings;
 use base qw/Exporter/;
 
 our $VERSION = "0.01";
-our @EXPORT = qw/build_request_redis build_request_redis_utf8/;
+our @EXPORT = qw/
+                    build_request_redis build_request_redis_utf8
+                    send_request_redis send_request_redis_utf8
+                /;
 
 use XSLoader;
 XSLoader::load(__PACKAGE__, $VERSION);

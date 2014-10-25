@@ -52,6 +52,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/kazeburo/Redis-Request-XS/issues"
+      },
+      "homepage" : "https://github.com/kazeburo/Redis-Request-XS",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/kazeburo/Redis-Request-XS.git",
+         "web" : "https://github.com/kazeburo/Redis-Request-XS"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:KAZEBURO"
 }
